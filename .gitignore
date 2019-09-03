@@ -1,0 +1,8 @@
+**/node_modules
+**/Pods
+*.csv
+secrets/
+img/
+.env
+*.ipa
+*.zip

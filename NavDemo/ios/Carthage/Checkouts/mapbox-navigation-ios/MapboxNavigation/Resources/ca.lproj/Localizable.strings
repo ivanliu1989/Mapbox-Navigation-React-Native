@@ -1,0 +1,53 @@
+/* Indicates a faster route was found */
+"FASTER_ROUTE_FOUND" = "S’ha trobat una ruta més ràpida";
+
+/* Feedback type for Bad Route */
+"FEEDBACK_BAD_ROUTE" = "Ruta\ndolenta";
+
+/* Feedback type for Confusing Instruction */
+"FEEDBACK_CONFUSING_INSTRUCTION" = "Instruccions\nimprecises";
+
+/* Feedback type for inaccurate GPS */
+"FEEDBACK_GPS_INACCURATE" = "GPS\nerroni";
+
+/* Feedback type for Heavy Traffic */
+"FEEDBACK_HEAVY_TRAFFIC" = "Tràfic\nespès";
+
+/* Feedback type for Instruction Issue */
+"FEEDBACK_INSTRUCTION_ISSUE" = "Problema amb \nles instruccions";
+
+/* Feedback type for Instruction Timing */
+"FEEDBACK_INSTRUCTION_TIMING" = "Cronometratge\ninstruccions";
+
+/* Feedback type for turn not allowed */
+"FEEDBACK_NOT_ALLOWED" = "No\npermès";
+
+/* Feedback type for Report Traffic */
+"FEEDBACK_REPORT_TRAFFIC" = "Informe \ntràfic";
+
+/* Feedback type for Closure */
+"FEEDBACK_ROAD_CLOSURE" = "Carretera\ntancada";
+
+/* Message confirming that the user has successfully sent feedback */
+"FEEDBACK_THANK_YOU" = "Gràcies pel vostre informe!";
+
+/* Format for displaying the first two major ways */
+"LEG_MAJOR_WAYS_FORMAT" = "%1$@ i %2$@";
+
+/* Format string for a short distance or time less than a minimum threshold; 1 = duration remaining */
+"LESS_THAN" = "<%@";
+
+/* Indicates that rerouting is in progress */
+"REROUTING" = "Recalculant la ruta…";
+
+/* Button title for resume tracking */
+"RESUME" = "Continuar";
+
+/* The text of a banner that appears during turn-by-turn navigation when route simulation is enabled. */
+"USER_IN_SIMULATION_MODE" = "Simular la navegació";
+
+/* Format for displaying destination and intermediate waypoints; 1 = source ; 2 = destinations */
+"WAYPOINT_DESTINATION_VIA_WAYPOINTS_FORMAT" = "%1$@, via %2$@";
+
+/* Format for displaying start and endpoint for leg; 1 = source ; 2 = destination */
+"WAYPOINT_SOURCE_DESTINATION_FORMAT" = "%1$@ i %2$@";

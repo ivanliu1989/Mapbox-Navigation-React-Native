@@ -1,0 +1,126 @@
+/* Delimiter between lines in an address when displayed inline */
+"ADDRESS_LINE_SEPARATOR" = ", ";
+
+/* Title on arrival action sheet */
+"CARPLAY_ARRIVED" = "Đã đến nơi rồi";
+
+/* Message on arrival action sheet */
+"CARPLAY_ARRIVED_MESSAGE" = "Bạn muốn làm gì?";
+
+/* Name of the waypoint associated with the current location */
+"CARPLAY_CURRENT_LOCATION" = "Vị trí Hiện tại";
+
+/* Title for dismiss button */
+"CARPLAY_DISMISS" = "Bỏ qua";
+
+/* Title for end navigation button */
+"CARPLAY_END" = "Kết thúc";
+
+/* Title on the exit button in the arrival form */
+"CARPLAY_EXIT_NAVIGATION" = "Thoát Điều hướng";
+
+/* Title for feedback template in CarPlay */
+"CARPLAY_FEEDBACK" = "Phản hồi";
+
+/* Title for start button in CPTripPreviewTextConfiguration */
+"CARPLAY_GO" = "Đi";
+
+/* Title for alternative routes in CPTripPreviewTextConfiguration */
+"CARPLAY_MORE_ROUTES" = "Thêm Đường đi";
+
+/* Title for mute button */
+"CARPLAY_MUTE" = "Tắt Tiếng";
+
+/* Title for overview button in CPTripPreviewTextConfiguration */
+"CARPLAY_OVERVIEW" = "Tóm tắt";
+
+/* Title for rating template in CarPlay */
+"CARPLAY_RATE_RIDE" = "Đánh giá chuyến đi của bạn";
+
+/* Title on rate button in CarPlay */
+"CARPLAY_RATE_TRIP" = "Đánh giá chuyến đi của bạn";
+
+/* Message when search returned zero results in CarPlay */
+"CARPLAY_SEARCH_NO_RESULTS" = "Không tìm thấy kết quả";
+
+/* Alert title that shows when feedback has been submitted */
+"CARPLAY_SUBMITTED_FEEDBACK" = "Đã gửi";
+
+/* Title for unmute button */
+"CARPLAY_UNMUTE" = "Bật Tiếng";
+
+/* Format string for indicating the device volume is low; 1 = device model */
+"DEVICE_VOLUME_LOW" = "Âm lượng %@ Đang Thấp";
+
+/* Dismiss button title on the steps view */
+"DISMISS_STEPS_TITLE" = "Đóng";
+
+/* Title used for arrival */
+"END_OF_ROUTE_ARRIVED" = "Đã đến nơi rồi";
+
+/* Comment Placeholder Text */
+"END_OF_ROUTE_TITLE" = "Chúng tôi có thể cải thiện bằng cách nào?";
+
+/* Error message when the SDK is unable to read a spoken instruction. */
+"FAILED_INSTRUCTION" = "Không thể đọc lời chỉ dẫn.";
+
+/* Indicates a faster route was found */
+"FASTER_ROUTE_FOUND" = "Đã Tìm thấy Đường Nhanh Hơn";
+
+/* Feedback type for Bad Route */
+"FEEDBACK_BAD_ROUTE" = "Đường\nSai";
+
+/* Feedback type for Confusing Instruction */
+"FEEDBACK_CONFUSING_INSTRUCTION" = "Hướng dẫn\nKhó hiểu";
+
+/* Feedback type for Other Map Issue Issue */
+"FEEDBACK_GENERAL_ISSUE" = "Vấn đề\nBản đồ Khác";
+
+/* Feedback type for a maneuver that is Not Allowed */
+"FEEDBACK_NOT_ALLOWED" = "Cấm";
+
+/* Feedback type for Report Traffic */
+"FEEDBACK_REPORT_TRAFFIC" = "Báo cáo\nTắc đường";
+
+/* Feedback type for Road Closed */
+"FEEDBACK_ROAD_CLOSURE" = "Đường\nĐóng cửa";
+
+/* Message confirming that the user has successfully sent feedback */
+"FEEDBACK_THANK_YOU" = "Cảm ơn bạn đã báo cáo!";
+
+/* Title of view controller for sending feedback */
+"FEEDBACK_TITLE" = "Báo cáo Vấn đề";
+
+/* Format for displaying the first two major ways */
+"LEG_MAJOR_WAYS_FORMAT" = "%1$@ và %2$@";
+
+/* Format string for a short distance or time less than a minimum threshold; 1 = duration remaining */
+"LESS_THAN" = "<%@";
+
+/* Accessibility value of label indicating the absence of a rating */
+"NO_RATING" = "Chưa đánh giá.";
+
+/* Rating Reset To Zero Accessability Hint */
+"RATING_ACCESSIBILITY_RESET" = "Chạm để đặt lại đánh giá.";
+
+/* Format for accessibility label of button for setting a rating; 1 = number of stars */
+"RATING_ACCESSIBILITY_SET" = "Đánh giá %ld sao";
+
+/* Format for accessibility value of label indicating the existing rating; 1 = number of stars */
+"RATING_STARS_FORMAT" = "Đã đánh giá %ld sao.";
+
+/* Indicates that rerouting is in progress */
+"REROUTING" = "Đang tính tuyến mới…";
+
+/* Button title for resume tracking */
+"RESUME" = "Tiếp tục";
+
+/* The text of a banner that appears during turn-by-turn navigation when route simulation is enabled. */
+"USER_IN_SIMULATION_MODE" = "Đang Mô phỏng Điều hướng (Tốc độ Gấp %@ Lần)";
+
+/* Format for displaying destination and intermediate waypoints; 1 = source ; 2 = destinations */
+"WAYPOINT_DESTINATION_VIA_WAYPOINTS_FORMAT" = "%1$@ qua %2$@";
+
+/* Format for displaying start and endpoint for leg; 1 = source ; 2 = destination */
+"WAYPOINT_SOURCE_DESTINATION_FORMAT" = "%1$@ và %2$@";
+

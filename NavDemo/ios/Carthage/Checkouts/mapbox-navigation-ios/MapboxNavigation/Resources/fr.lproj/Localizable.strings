@@ -1,0 +1,126 @@
+/* Delimiter between lines in an address when displayed inline */
+"ADDRESS_LINE_SEPARATOR" = ",";
+
+/* Title on arrival action sheet */
+"CARPLAY_ARRIVED" = "Vous êtes arrivé";
+
+/* Message on arrival action sheet */
+"CARPLAY_ARRIVED_MESSAGE" = "Que voulez-vous faire ?";
+
+/* Name of the waypoint associated with the current location */
+"CARPLAY_CURRENT_LOCATION" = "Position actuelle";
+
+/* Title for dismiss button */
+"CARPLAY_DISMISS" = "Annuler";
+
+/* Title for end navigation button */
+"CARPLAY_END" = "Terminer";
+
+/* Title on the exit button in the arrival form */
+"CARPLAY_EXIT_NAVIGATION" = "Quitter la navigation";
+
+/* Title for feedback template in CarPlay */
+"CARPLAY_FEEDBACK" = "Commentaire";
+
+/* Title for start button in CPTripPreviewTextConfiguration */
+"CARPLAY_GO" = "C'est parti ";
+
+/* Title for alternative routes in CPTripPreviewTextConfiguration */
+"CARPLAY_MORE_ROUTES" = "Autres itinéraires";
+
+/* Title for mute button */
+"CARPLAY_MUTE" = "Muet";
+
+/* Title for overview button in CPTripPreviewTextConfiguration */
+"CARPLAY_OVERVIEW" = "Aperçu";
+
+/* Title for rating template in CarPlay */
+"CARPLAY_RATE_RIDE" = "Évaluer votre trajet";
+
+/* Title on rate button in CarPlay */
+"CARPLAY_RATE_TRIP" = "Évaluer votre voyage";
+
+/* Message when search returned zero results in CarPlay */
+"CARPLAY_SEARCH_NO_RESULTS" = "Pas de résultats";
+
+/* Alert title that shows when feedback has been submitted */
+"CARPLAY_SUBMITTED_FEEDBACK" = "Envoyé ";
+
+/* Title for unmute button */
+"CARPLAY_UNMUTE" = "Réactiver le son";
+
+/* Format string for indicating the device volume is low; 1 = device model */
+"DEVICE_VOLUME_LOW" = "%@ Volume moins";
+
+/* Dismiss button title on the steps view */
+"DISMISS_STEPS_TITLE" = "Fermer";
+
+/* Title used for arrival */
+"END_OF_ROUTE_ARRIVED" = "Vous êtes arrivé";
+
+/* Comment Placeholder Text */
+"END_OF_ROUTE_TITLE" = "Comment pouvons-nous nous améliorer ?";
+
+/* Error message when the SDK is unable to read a spoken instruction. */
+"FAILED_INSTRUCTION" = "Impossible de lire les instructions audiblement.";
+
+/* Indicates a faster route was found */
+"FASTER_ROUTE_FOUND" = "Itinéraire plus rapide trouvé";
+
+/* Feedback type for Bad Route */
+"FEEDBACK_BAD_ROUTE" = "Mauvais \nitinéraire";
+
+/* Feedback type for Confusing Instruction */
+"FEEDBACK_CONFUSING_INSTRUCTION" = "Instruction \nconfusive";
+
+/* Feedback type for Other Map Issue Issue */
+"FEEDBACK_GENERAL_ISSUE" = "Autre \nproblème de carte";
+
+/* Feedback type for a maneuver that is Not Allowed */
+"FEEDBACK_NOT_ALLOWED" = "Non \nautorisé";
+
+/* Feedback type for Report Traffic */
+"FEEDBACK_REPORT_TRAFFIC" = "Signaler \nle trafic";
+
+/* Feedback type for Road Closed */
+"FEEDBACK_ROAD_CLOSURE" = "Route \nfermée";
+
+/* Message confirming that the user has successfully sent feedback */
+"FEEDBACK_THANK_YOU" = "Merci pour votre signalement !";
+
+/* Title of view controller for sending feedback */
+"FEEDBACK_TITLE" = "Signaler un problème";
+
+/* Format for displaying the first two major ways */
+"LEG_MAJOR_WAYS_FORMAT" = "%1$@ et %2$@";
+
+/* Format string for a short distance or time less than a minimum threshold; 1 = duration remaining */
+"LESS_THAN" = "< %@";
+
+/* Accessibility value of label indicating the absence of a rating */
+"NO_RATING" = "Pas encore d'evaluation.";
+
+/* Rating Reset To Zero Accessability Hint */
+"RATING_ACCESSIBILITY_RESET" = "Taper pour remettre à zéro l’évaluation.";
+
+/* Format for accessibility label of button for setting a rating; 1 = number of stars */
+"RATING_ACCESSIBILITY_SET" = "Évaluer à %ld étoiles";
+
+/* Format for accessibility value of label indicating the existing rating; 1 = number of stars */
+"RATING_STARS_FORMAT" = "Évalué à %ld étoile(s).";
+
+/* Indicates that rerouting is in progress */
+"REROUTING" = "Recalcul d’itinéraire…";
+
+/* Button title for resume tracking */
+"RESUME" = "Reprendre";
+
+/* The text of a banner that appears during turn-by-turn navigation when route simulation is enabled. */
+"USER_IN_SIMULATION_MODE" = "Simulez la navigation pour %@";
+
+/* Format for displaying destination and intermediate waypoints; 1 = source ; 2 = destinations */
+"WAYPOINT_DESTINATION_VIA_WAYPOINTS_FORMAT" = "%1$@, par %2$@";
+
+/* Format for displaying start and endpoint for leg; 1 = source ; 2 = destination */
+"WAYPOINT_SOURCE_DESTINATION_FORMAT" = "%1$@ et %2$@";
+

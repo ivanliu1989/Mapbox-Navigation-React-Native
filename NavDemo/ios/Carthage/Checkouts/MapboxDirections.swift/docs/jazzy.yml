@@ -1,0 +1,31 @@
+module: MapboxDirections
+author: Mapbox
+author_url: https://docs.mapbox.com/ios/directions/
+github_url: https://github.com/mapbox/MapboxDirections.swift
+dash_url: https://docs.mapbox.com/ios/docsets/MapboxDirections.xml
+copyright: '© 2014–2019 [Mapbox](https://www.mapbox.com/). See [license](https://github.com/mapbox/MapboxDirections.swift/blob/master/LICENSE.md) for more details.'
+
+head: |
+  <link rel='shortcut icon' href='https://www.mapbox.com/img/favicon.ico' type='image/x-icon' />
+skip_undocumented: Yes
+hide_documentation_coverage: Yes
+
+custom_categories:
+  - name: Guides
+    children:
+      - Navigation SDK
+  - name: Getting Directions
+    children:
+      - Directions
+      - RouteOptions
+      - Waypoint
+  - name: Map Matching
+    children:
+      - MatchOptions
+      - Tracepoint
+      - Match
+  - name: Results
+    children:
+      - Route
+      - RouteLeg
+      - RouteStep

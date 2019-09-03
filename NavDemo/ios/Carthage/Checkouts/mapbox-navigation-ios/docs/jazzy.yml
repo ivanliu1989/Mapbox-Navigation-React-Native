@@ -1,0 +1,89 @@
+module: MapboxNavigation
+author: Mapbox
+title: "Navigation SDK for iOS"
+author_url: https://docs.mapbox.com/ios/navigation/
+github_url: https://github.com/mapbox/mapbox-navigation-ios
+dash_url: https://docs.mapbox.com/ios/docsets/MapboxNavigation.xml
+copyright: '© 2014–2019 [Mapbox](https://www.mapbox.com/). See [license](https://github.com/mapbox/mapbox-navigation-ios/blob/master/LICENSE.md) for more details.'
+
+head: |
+  <link rel='shortcut icon' href='https://www.mapbox.com/img/favicon.ico' type='image/x-icon' />
+skip_undocumented: Yes
+hide_documentation_coverage: Yes
+
+custom_categories:
+  - name: Guides
+    children:
+      - Using Map Matching
+      - Reduce Memory Usage
+      - Styling the UI
+  - name: Turn-by-turn UI
+    children:
+      - NavigationViewController
+      - NavigationViewControllerDelegate
+      - RouteVoiceController
+  - name: Core Navigation Logic
+    children:
+      - NavigationService
+      - MapboxNavigationService
+      - RouteController
+      - RouteControllerDelegate
+      - RouteProgress
+      - RouteLegProgress
+      - RouteStepProgress
+      - RouteControllerNotificationUserInfoKey
+  - name: Maps
+    children:
+      - NavigationMapView
+      - NavigationMapViewDelegate
+      - MGLMapView
+  - name: Styling
+    children:
+      - Style
+      - StyleKitArrows
+      - StylableButton
+      - StylableLabel
+  - name: Formatters
+    children:
+      - DistanceFormatter
+      - RouteStepFormatter
+  - name: UI Components
+    children:
+      - RouteTableViewController
+      - NavigationPulleyViewController
+      - Button
+      - CellSubtitleLabel
+      - CellTitleLabel
+      - DashedLineView
+      - HighlightedButton
+      - LineView
+      - ProgressBar
+      - SeparatorView
+      - SubtitleLabel
+      - TitleLabel
+      - TurnArrowView
+      - WayNameLabel
+  - name: CarPlay
+    children:
+      - CarPlayManager
+      - CarPlayManagerDelegate
+      - CarPlayNavigationViewController
+      - CarPlayNavigationDelegate
+      - CarPlayActivity
+  - name: Configuration
+    children:
+      - MaxSecondsSpentTravelingAwayFromStartOfRoute
+      - RouteControllerDeadReckoningTimeInterval
+      - RouteControllerHighAlertInterval
+      - RouteControllerManeuverZoneRadius
+      - RouteControllerMaxManipulatedCourseAngle
+      - RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion
+      - RouteControllerMaximumDistanceBeforeRecalculating
+      - RouteControllerMediumAlertInterval
+      - RouteControllerMinimumDistanceForHighAlertCycling
+      - RouteControllerMinimumDistanceForHighAlertDriving
+      - RouteControllerMinimumDistanceForHighAlertWalking
+      - RouteControllerMinimumDistanceForMediumAlertCycling
+      - RouteControllerMinimumDistanceForMediumAlertDriving
+      - RouteControllerMinimumDistanceForMediumAlertWalking
+      - RouteControllerUserLocationSnappingDistance
