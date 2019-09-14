@@ -7,9 +7,11 @@
 //
 
 import Foundation
-import MapboxDirections
+import UIKit
 import MapboxCoreNavigation
 import MapboxNavigation
+import MapboxDirections
+import Mapbox
 
 @objc(NavDemo)
 class NavDemo: NSObject {
@@ -25,7 +27,10 @@ class NavDemo: NSObject {
     Directions.shared.calculate(options) { (waypoints, routes, error) in
       guard let route = routes?.first else { return }
       
-      let viewController = NavigationViewController(for: route)
+      let navigationService = MapboxNavigationService(route: route, simulating: .never)
+      let navigationOptions = NavigationOptions(navigationService: navigationService)
+
+      let viewController = NavigationViewController(for: route, options: navigationOptions)
       let appDelegate = UIApplication.shared.delegate
       appDelegate!.window!!.rootViewController!.present(viewController, animated: true, completion: nil)
     }
